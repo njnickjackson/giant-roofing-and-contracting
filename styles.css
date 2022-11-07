@@ -1,0 +1,173 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Header */
+
+.header-logo-info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1em;
+}
+
+
+.header-logo {
+    height: auto;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: 0 1em;
+}
+
+.header-logo img {
+    width: 50%;
+    min-width: 200px;
+}
+
+.header-logo-info p {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.header-location {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin: 0 1em;
+}
+
+.header-saying-number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    justify-content: center;
+    margin: 0 1em;
+    font-size: 1.25rem;
+}
+
+.header-saying-number p {
+    margin-bottom: 0.5em;
+    padding-bottom: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.25rem;
+}
+
+/* residential roof */
+
+.residential-roofing {
+    background-image: url(images/residential-roofing.jpg);
+    background-color: gray;
+    background-blend-mode: multiply;
+    color: white;
+    height: 400px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bbb {
+    margin-top: 2em;
+}
+
+.residential-roofing h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.residential-roofing p {
+    font-size: 1.5rem;
+}
+
+.residential-roofing a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* company-info */
+
+.company-info {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.company-info h2 {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.company-info p {
+    margin-top: 0;
+    margin-bottom: 2.5em;
+    font-size: 1.2rem;
+}
+/* main */
+
+.main-roofing {
+    display: flex;
+    margin: 0 5em;
+    margin-bottom: 2em;
+    /* border: 1px solid black; */
+}
+
+.main-roofing-image {
+    width: 50%;
+    height: auto;
+}
+
+.main-roofing img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.main-roofing-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-roofing h3 {
+    margin: 0;
+    font-size: 1.75rem;
+    margin-bottom: 0.25em;
+}
+
+.main-roofing p {
+    width: 75%;
+    font-size: 1.1rem;
+    margin-bottom: 1.75em;
+    text-align: center;
+}
+
+.main-roofing-info a {
+    text-decoration: none;
+    color: white;
+    background: rgb(33, 33, 128);
+    font-size: 1.5rem;
+    padding: 0.5em 2em;
+    display: inline-block;
+}
+
+.main-roofing-info-link {
+    display: flex;
+}
